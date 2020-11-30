@@ -1,0 +1,10 @@
+---
+ - name: Installing Redis
+   apt: 
+    name: redis
+    state: present
+   register: results
+   become: yes
+
+ - name: Installed Redis version
+   command: redis-server -v

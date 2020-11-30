@@ -1,2 +1,2 @@
-# JGP
+# ECC
 Projects
